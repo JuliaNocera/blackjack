@@ -5,7 +5,7 @@ class window.Hand extends Backbone.Collection
 
   hit: ->
     @add(@deck.pop())
-    alert("You lose!") if @scores()[0] > 21
+    @trigger('checkScore', @)
 
   hasAce: -> @reduce (memo, card) ->
     memo or card.get('value') is 1
