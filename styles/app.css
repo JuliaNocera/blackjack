@@ -9,6 +9,9 @@
   border-radius: 5px;
   height: 167px;
   margin-right: 20px;
+  color: transparent;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
 }
 .hand {
   overflow: auto;

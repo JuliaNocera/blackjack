@@ -13,3 +13,7 @@ describe 'deck', ->
       assert.strictEqual deck.length, 50
       assert.strictEqual deck.last(), hand.hit().models[hand.models.length-1]
       assert.strictEqual deck.length, 49
+  
+
+
+
