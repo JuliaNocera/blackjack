@@ -4,8 +4,8 @@ class window.Hand extends Backbone.Collection
   initialize: (array, @deck, @isDealer) ->
 
   hit: ->
-    @add(@deck.pop())
     @trigger('hit', @)
+    @add(@deck.pop())
 
   stand: ->
     @trigger('stand', @)
