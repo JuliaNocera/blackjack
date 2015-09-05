@@ -19,4 +19,7 @@ class window.HandView extends Backbone.View
     if @collection.scores()[0] > 21
       if @collection.isDealer == undefined
         alert("you lose")
+        $('body').empty()
+        new AppView(model: new App()).$el.appendTo 'body'
+
 
