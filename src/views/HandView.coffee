@@ -5,8 +5,6 @@ class window.HandView extends Backbone.View
 
   initialize: ->
     @collection.on 'add remove change', => @render()
-    @collection.on 'checkScore', => @scoreCheck()
-    @collection.on 'stand', => @revealDealer()
     @render()
 
   render: ->
@@ -15,15 +13,5 @@ class window.HandView extends Backbone.View
     @$el.append @collection.map (card) ->
       new CardView(model: card).$el
     @$('.score').text @collection.scores()[0]
-
-  scoreCheck: ->
-    if @collection.scores()[0] > 21
-      alert("you lose")
-      $('body').empty()
-      new AppView(model: new App()).$el.appendTo 'body'
-
-  revealDealer: ->
-    @collection.models[0].flip()
-
 
 

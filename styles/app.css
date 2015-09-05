@@ -1,169 +1,7 @@
 .covered {
-  background-image: url('../img/card-back.png');
+  background-image: url('../img/card-back.png') !important;
   color: transparent;
 }
-
-.hand {
-  overflow: auto;
-}
-
-.AceClubs  {
-  background-image: url('../img/cards/ace-clubs.png');
-}
-.2Clubs  {
-  background-image: url('../img/cards/2-clubs.png');
-}
-.3Clubs  {
-  background-image: url('../img/cards/3-clubs.png');
-}
-.4Clubs  {
-  background-image: url('../img/cards/4-clubs.png');
-}
-.5Clubs  {
-  background-image: url('../img/cards/5-clubs.png');
-}
-.6Clubs  {
-  background-image: url('../img/cards/6-clubs.png');
-}
-.7Clubs  {
-  background-image: url('../img/cards/7-clubs.png');
-}
-.8Clubs  {
-  background-image: url('../img/cards/8-clubs.png');
-}
-.9Clubs  {
-  background-image: url('../img/cards/9-clubs.png');
-}
-.10Clubs  {
-  background-image: url('../img/cards/10-clubs.png');
-}
-.JackClubs  {
-  background-image: url('../img/cards/jack-clubs.png');
-}
-.QueenClubs  {
-  background-image: url('../img/cards/queen-clubs.png');
-}
-.KingClubs {
-  background-image: url('../img/cards/king-clubs.png');
-}
-.AceDiamonds  {
-  background-image: url('../img/cards/ace-diamonds.png');
-}
-.2Diamonds  {
-  background-image: url('../img/cards/2-diamonds.png');
-}
-.3Diamonds  {
-  background-image: url('../img/cards/3-diamonds.png');
-}
-.4Diamonds  {
-  background-image: url('../img/cards/4-diamonds.png');
-}
-.5Diamonds  {
-  background-image: url('../img/cards/5-diamonds.png');
-}
-.6Diamonds  {
-  background-image: url('../img/cards/6-diamonds.png');
-}
-.7Diamonds  {
-  background-image: url('../img/cards/7-diamonds.png');
-}
-.8Diamonds  {
-  background-image: url('../img/cards/8-diamonds.png');
-}
-.9Diamonds  {
-  background-image: url('../img/cards/9-diamonds.png');
-}
-.10Diamonds  {
-  background-image: url('../img/cards/10-diamonds.png');
-}
-.JackDiamonds  {
-  background-image: url('../img/cards/jack-diamonds.png');
-}
-.QueenDiamonds  {
-  background-image: url('../img/cards/queen-diamonds.png');
-}
-.KingDiamonds {
-  background-image: url('../img/cards/king-diamonds.png');
-}
-.AceHearts  {
-  background-image: url('../img/cards/ace-hearts.png');
-}
-.2Hearts  {
-  background-image: url('../img/cards/2-hearts.png');
-}
-.3Hearts  {
-  background-image: url('../img/cards/3-hearts.png');
-}
-.4Hearts  {
-  background-image: url('../img/cards/4-hearts.png');
-}
-.5Hearts  {
-  background-image: url('../img/cards/5-hearts.png');
-}
-.6Hearts  {
-  background-image: url('../img/cards/6-hearts.png');
-}
-.7Hearts  {
-  background-image: url('../img/cards/7-hearts.png');
-}
-.8Hearts  {
-  background-image: url('../img/cards/8-hearts.png');
-}
-.9Hearts  {
-  background-image: url('../img/cards/9-hearts.png');
-}
-.10Hearts  {
-  background-image: url('../img/cards/10-hearts.png');
-}
-.JackHearts  {
-  background-image: url('../img/cards/jack-hearts.png');
-}
-.QueenHearts  {
-  background-image: url('../img/cards/queen-hearts.png');
-}
-.KingHearts {
-  background-image: url('../img/cards/king-hearts.png');
-}
-.AceSpades {
-  background-image: url('../img/cards/ace-spades.png');
-}
-.2Spades {
-  background-image: url('../img/cards/2-spades.png');
-}
-.3Spades {
-  background-image: url('../img/cards/3-spades.png');
-}
-.4Spades {
-  background-image: url('../img/cards/4-spades.png');
-}
-.5Spades {
-  background-image: url('../img/cards/5-spades.png');
-}
-.6Spades {
-  background-image: url('../img/cards/6-spades.png');
-}
-.7Spades {
-  background-image: url('../img/cards/7-spades.png');
-}
-.8Spades {
-  background-image: url('../img/cards/8-spades.png');
-}
-.9Spades {
-  background-image: url('../img/cards/9-spades.png');
-}
-.10Spades {
-  background-image: url('../img/cards/10-spades.png');
-}
-.JackSpades {
-  background-image: url('../img/cards/jack-spades.png');
-}
-.QueenSpades {
-  background-image: url('../img/cards/queen-spades.png');
-}
-.KingSpades{
-  background-image: url('../img/cards/king-spades.png');
-}
-
 .card {
   float: left;
   border: solid 1px black;
@@ -171,4 +9,164 @@
   border-radius: 5px;
   height: 167px;
   margin-right: 20px;
+}
+.hand {
+  overflow: auto;
+}
+
+._AceClubs  {
+  background-image: url('../img/cards/ace-clubs.png');
+}
+._2Clubs  {
+  background-image: url('../img/cards/2-clubs.png');
+}
+._3Clubs  {
+  background-image: url('../img/cards/3-clubs.png');
+}
+._4Clubs  {
+  background-image: url('../img/cards/4-clubs.png');
+}
+._5Clubs  {
+  background-image: url('../img/cards/5-clubs.png');
+}
+._6Clubs  {
+  background-image: url('../img/cards/6-clubs.png');
+}
+._7Clubs  {
+  background-image: url('../img/cards/7-clubs.png');
+}
+._8Clubs  {
+  background-image: url('../img/cards/8-clubs.png');
+}
+._9Clubs  {
+  background-image: url('../img/cards/9-clubs.png');
+}
+._10Clubs  {
+  background-image: url('../img/cards/10-clubs.png');
+}
+._JackClubs  {
+  background-image: url('../img/cards/jack-clubs.png');
+}
+._QueenClubs  {
+  background-image: url('../img/cards/queen-clubs.png');
+}
+._KingClubs {
+  background-image: url('../img/cards/king-clubs.png');
+}
+._AceDiamonds  {
+  background-image: url('../img/cards/ace-diamonds.png');
+}
+._2Diamonds  {
+  background-image: url('../img/cards/2-diamonds.png');
+}
+._3Diamonds  {
+  background-image: url('../img/cards/3-diamonds.png');
+}
+._4Diamonds  {
+  background-image: url('../img/cards/4-diamonds.png');
+}
+._5Diamonds  {
+  background-image: url('../img/cards/5-diamonds.png');
+}
+._6Diamonds  {
+  background-image: url('../img/cards/6-diamonds.png');
+}
+._7Diamonds  {
+  background-image: url('../img/cards/7-diamonds.png');
+}
+._8Diamonds  {
+  background-image: url('../img/cards/8-diamonds.png');
+}
+._9Diamonds  {
+  background-image: url('../img/cards/9-diamonds.png');
+}
+._10Diamonds  {
+  background-image: url('../img/cards/10-diamonds.png');
+}
+._JackDiamonds  {
+  background-image: url('../img/cards/jack-diamonds.png');
+}
+._QueenDiamonds  {
+  background-image: url('../img/cards/queen-diamonds.png');
+}
+._KingDiamonds {
+  background-image: url('../img/cards/king-diamonds.png');
+}
+._AceHearts  {
+  background-image: url('../img/cards/ace-hearts.png');
+}
+._2Hearts  {
+  background-image: url('../img/cards/2-hearts.png');
+}
+._3Hearts  {
+  background-image: url('../img/cards/3-hearts.png');
+}
+._4Hearts  {
+  background-image: url('../img/cards/4-hearts.png');
+}
+._5Hearts  {
+  background-image: url('../img/cards/5-hearts.png');
+}
+._6Hearts  {
+  background-image: url('../img/cards/6-hearts.png');
+}
+._7Hearts  {
+  background-image: url('../img/cards/7-hearts.png');
+}
+._8Hearts  {
+  background-image: url('../img/cards/8-hearts.png');
+}
+._9Hearts  {
+  background-image: url('../img/cards/9-hearts.png');
+}
+._10Hearts  {
+  background-image: url('../img/cards/10-hearts.png');
+}
+._JackHearts  {
+  background-image: url('../img/cards/jack-hearts.png');
+}
+._QueenHearts  {
+  background-image: url('../img/cards/queen-hearts.png');
+}
+._KingHearts {
+  background-image: url('../img/cards/king-hearts.png');
+}
+._AceSpades {
+  background-image: url('../img/cards/ace-spades.png');
+}
+._2Spades {
+  background-image: url('../img/cards/2-spades.png');
+}
+._3Spades {
+  background-image: url('../img/cards/3-spades.png');
+}
+._4Spades {
+  background-image: url('../img/cards/4-spades.png');
+}
+._5Spades {
+  background-image: url('../img/cards/5-spades.png');
+}
+._6Spades {
+  background-image: url('../img/cards/6-spades.png');
+}
+._7Spades {
+  background-image: url('../img/cards/7-spades.png');
+}
+._8Spades {
+  background-image: url('../img/cards/8-spades.png');
+}
+._9Spades {
+  background-image: url('../img/cards/9-spades.png');
+}
+._10Spades {
+  background-image: url('../img/cards/10-spades.png');
+}
+._JackSpades {
+  background-image: url('../img/cards/jack-spades.png');
+}
+._QueenSpades {
+  background-image: url('../img/cards/queen-spades.png');
+}
+._KingSpades{
+  background-image: url('../img/cards/king-spades.png');
 }

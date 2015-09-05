@@ -1,5 +1,5 @@
 class window.CardView extends Backbone.View
-  className: 'card '
+  className: 'card'
 
   template: _.template '<%= rankName %> of <%= suitName %>'
 
@@ -10,5 +10,5 @@ class window.CardView extends Backbone.View
     @$el.children().detach()
     @$el.html @template @model.attributes
     @$el.addClass 'covered' unless @model.get 'revealed'
-    @$el.addClass @model.attributes.rankName + @model.attributes.suitName
+    @$el.addClass '_' + @model.attributes.rankName + @model.attributes.suitName
 

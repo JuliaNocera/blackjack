@@ -5,7 +5,7 @@ class window.Hand extends Backbone.Collection
 
   hit: ->
     @add(@deck.pop())
-    @trigger('checkScore', @)
+    @trigger('hit', @)
 
   stand: ->
     @trigger('stand', @)
