@@ -1,22 +1,40 @@
 .covered {
   background-image: url('../img/card-back.png') !important;
-  color: transparent;
 }
 .card {
   float: left;
-  border: solid 1px black;
+  border: solid 1px Black;
   width: 120px;
   border-radius: 5px;
   height: 167px;
   margin-right: 20px;
   color: transparent;
+  background-color: red;
   background-repeat:no-repeat;
   background-size: 100% 100%;
+}
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #33995E;
+  background-image: url("http://arizonaplayer.com/wp-content/uploads/2014/02/Casino-Capers-Web-Background-Image-1200x8001.jpg");
+}
+button{
+  margin-top: 30px;
+  height: 30px;
+  width: 80px;
+  border-radius: 15px
+}
+h2 {
+  text-align: center;
+  color: white;
 }
 .hand {
   overflow: auto;
 }
-
 ._AceClubs  {
   background-image: url('../img/cards/ace-clubs.png');
 }
